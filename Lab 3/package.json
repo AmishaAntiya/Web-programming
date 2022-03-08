@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "My lab 3 assignment",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Amisha Antiya 10475122",
+  "license": "ISC"
+}
