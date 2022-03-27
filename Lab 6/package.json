@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "My lab 6 assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Amisha Antiya 10475122",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.3.1"
+  }
+}
