@@ -1,0 +1,58 @@
+<article>
+    {{#if show}}
+        <h1>{{show.name}}</h1>
+        {{#if show.image.medium}}
+            <img class="img" alt = {{show.name}} src = {{show.image.medium}}>
+        {{else}}
+            <img class="img" alt = {{show.name}} src = "https://icon-library.com/images/no-picture-available-icon/no-picture-available-icon-1.jpg">
+        {{/if}}                    
+        <dl>
+        <dt>Language</dt>
+        <dd>
+            {{#if show.language}}
+                {{show.language}}
+            {{else}}
+                N/A
+            {{/if}}
+        </dd>
+        <dt>Genres</dt>
+        <dd>
+            {{#if show.genres.length}}
+                <ul>
+                {{#each show.genres}}
+                <li>{{this}}</li>
+                {{/each}}
+                </ul>
+            {{else}}
+                N/A
+            {{/if}}
+        </dd>
+        <dt>Average Rating</dt>
+        <dd>
+            {{#if show.rating.average}}
+                {{show.rating.average}}
+            {{else}}
+                N/A
+            {{/if}}
+        </dd> 
+        <dt>Network</dt>
+        <dd>
+            {{#if show.network.name}}
+                {{show.network.name}}
+            {{else}}
+                N/A
+            {{/if}}
+        </dd>
+        <dt>Summary</dt>
+            <dd>
+        {{#if show.summary}}
+            {{show.summary}}
+        {{else}}
+            N/A
+        {{/if}}
+        </dd>
+        </dl> 
+        {{else}}
+        <p class="show-not-found">We're sorry, but no results were found for this show.</p>
+        {{/if}}
+</article>
