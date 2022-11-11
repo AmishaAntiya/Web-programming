@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TV maze</title>
+    <link rel="stylesheet" href="/public/main.css" crossorigin="anonymous">
+</head>
+<body>
+    <div class="box" id="screen">
+        <header><h1>TV maze</h1></header>
+        <div id="output" hidden>
+            <ul id="showList" hidden></ul>
+            <div id="show" hidden></div>
+        </div>
+        <form method="post" id="searchForm">
+            <label for="search_term"></label>
+            <input type="text" name="searchInput" id="search_term">
+            <button type="submit" id="submitBtn" class="submitBtn">Submit</button> 
+            
+        </form>
+        <div id="error" hidden></div>
+        <a href="/" id="homeLink" hidden>Back to All Shows</a>
+    </div>
+    <footer>Name: Amisha Antiya &nbsp; Student ID: 10475122 </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="/public/ajax.js"></script>
+</body>
+</html>
