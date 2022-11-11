@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14pt;
+}
+
+body {
+  background: #dedede;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+h1,
+h2 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+label {
+  font-weight: bold;
+}
+
+.error,
+.error-not-found {
+  color: #ff0000;
+}
+
+ul {
+  align-self: center;
+}
+
+form {
+  text-align: center;
+}
+
+img {
+  width: 280px;
+  height: 280px;
+}
+
+dt {
+  color: rgb(100, 0, 0);
+}
+dd {
+  color: rgb(3, 0, 0);
+}
